@@ -1,7 +1,8 @@
-FROM golang:latest
+FROM golang:alpine3.14
 
-WORKDIR app
+WORKDIR /app
 
-COPY . . 
+COPY . .
 
-RUN go build -o /main/go
+RUN go build -o /main main.go
+
