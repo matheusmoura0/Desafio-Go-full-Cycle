@@ -19,6 +19,8 @@ Dica: No vídeo de introdução sobre o Docker quando falamos sobre o sistema de
 Divirta-se
 
 
-Link da imagem: docker push corvuuuus/codeeducation
+#Link da imagem
+docker pull corvuuuus/codeeducation
 
-Executar o container: docker run --rm corvuuuus/codeeducation
+#Executar o container
+docker run --rm corvuuuus/codeeducation
